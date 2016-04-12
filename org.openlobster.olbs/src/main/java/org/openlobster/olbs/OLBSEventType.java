@@ -1,0 +1,21 @@
+package org.openlobster.olbs;
+
+/**
+ * Created by view on 22/5/15.
+ */
+
+public enum OLBSEventType {
+    OLBS_GPS,
+  //  OLBS_INDOOR,
+    OLBS_ALL_BEACON_IN_REGION,
+    OLBS_NO_BEACON_IN_REGION,
+    OLBS_NEAREST_BEACON_IN_REGION,
+    OLBS_ESTIMATE_LOCATION,
+    OLBS_GET_FLOOR_MAP,
+    OLBS_SENSOR,
+    OLBS_GET_OLBS_PATH,
+    OLBS_NFC,
+    OLBS_SEND_MSG_2_USER_AT_LOCATION_WITH_WEB_CALLBACK;
+
+}
+
